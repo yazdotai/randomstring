@@ -1,0 +1,25 @@
+Erlang library that simply generates a random string.
+
+It has one function get.
+
+Two parameters:
+-  the length of the string
+-  the list of string characters from which to randomly choose
+
+This library has been packaged with rebar.
+
+So you can use randomstring from any instance of the Erlang console by installing in the erlang library directory.
+
+This is usually found in :
+/usr/local/lib/erlang/lib
+
+Once you have moved the randomstring directory into the Erlang library folder, compile it with rebar:
+
+$ ./rebar compile
+
+And voila!  You can use randomstring from Erlang console in the following way:
+
+>  randomstring:get(5, "1234567890qwertyuiop").
+>  8j5dp
+
+
