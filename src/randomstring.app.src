@@ -1,0 +1,12 @@
+{application, randomstring,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { randomstring_app, []}},
+  {env, []}
+ ]}.
