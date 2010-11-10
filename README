@@ -11,14 +11,12 @@ This library has been packaged with rebar.
 So you can use randomstring from any instance of the Erlang console by installing in the erlang library directory.
 
 This is usually found in :
-/usr/local/lib/erlang/li
+/usr/local/lib/erlang/lib/
 
-Once in the folder, install randomstring via git
+Once in the directory, install randomstring with a git clone.
 
-> sudo git clone git@github.com:benahlan/randomstring.git
-
-And voila!  You can use randomstring from Erlang console in the following way:
+And voila!  You can use randomstring from the Erlang console in the following way:
 
 >  randomstring:get(5, "1234567890qwertyuiop").
->  8j5dp
+>  "8j5dp"
 
